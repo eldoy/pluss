@@ -219,6 +219,6 @@ Sanitizing the data using JSON.stringify (maybe need a safe version without prot
 
 It's just as fast as writing template functions directly since they are "compiled".
 
-ISC licensed.
+MIT licensed.
 
 Created by Eldøy Projects. Enjoy!
