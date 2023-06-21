@@ -1,12 +1,6 @@
-# Template-view-concept
+# SuperHTML
 
-Is it feasible to create our own template language for HTML?
-
-Can this be an extension of fastview? On app load we:
-
-1. Read the file
-2. Replace everything with Javascript code
-3. This makes it fast!
+Superset of HTML.
 
 **Features:**
 - insert variables
@@ -17,9 +11,6 @@ Can this be an extension of fastview? On app load we:
 - safe like liquid
 - small footprint
 - make front-end programming completely low-code!
-
-This one has some code we can use, see replaceAll:
-https://www.npmjs.com/package/sprightly
 
 ### Insert variables
 
@@ -216,7 +207,7 @@ with this on the page:
 
 ### Isomorphism
 
-The partials are automatically isomorphic since they are translated on save. 
+The partials are automatically isomorphic since they are translated on save.
 
 We may need some conventions like smaller components and no private template functions to make them work.
 
@@ -227,3 +218,7 @@ Sanitizing the data using JSON.stringify (maybe need a safe version without prot
 ### Small footprint
 
 It's just as fast as writing template functions directly since they are "compiled".
+
+ISC licensed.
+
+Created by Eldøy Projects. Enjoy!
