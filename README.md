@@ -103,6 +103,40 @@ Translates to:
 </ul>
 ```
 
+Array with index, contained:
+```html
+<ul>
+  <li map="product, index of products" class="n-{{ index }}">
+    {{ product }} {{ index }}
+  </li>
+</ul>
+```
+Translates to:
+
+```html
+<ul>
+  ${products.map(function(product, index) {
+    return `<li class="n-${esc(index)}">${esc(product)} ${esc(index)}</li>`
+  }).join('')}
+</ul>
+```
+
+Array with existing function:
+```html
+<ul>
+  <li map="product, index of products" with="{{ $.app.components.productList }}"></li>
+</ul>
+```
+Translates to:
+
+```html
+<ul>
+  ${products.map(function(product, index) {
+    return `<li>${esc(product)} ${esc(index)}</li>`
+  }).join('')}
+</ul>
+```
+
 Object:
 
 ```html
