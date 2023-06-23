@@ -6,8 +6,7 @@ async function run() {
   // Start timer
   console.time('Test run')
 
-  // Test the file 'spec/tests/superhtml.test.js
-  await test('superhtml')
+  await test('pluss')
 
   // End timer
   console.timeEnd('Test run')

@@ -1,16 +1,12 @@
-# SuperHTML
+# Pluss
 
 Superset of HTML.
 
 **Features:**
 - insert variables
-- if-elseif-else (conditional logic)
+- conditional logic
 - for loops (map)
-- partials from memory
 - isomorphic
-- safe like liquid
-- small footprint
-- make front-end programming completely low-code!
 
 ### Insert variables
 

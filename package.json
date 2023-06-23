@@ -1,5 +1,5 @@
 {
-  "name": "superhtml",
+  "name": "pluss",
   "version": "0.1.0",
   "description": "Superset of HTML",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eldoy/superhtml.git"
+    "url": "git+https://github.com/eldoy/pluss.git"
   },
   "author": "Vidar Eldøy <vidar@eldoy.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eldoy/superhtml/issues"
+    "url": "https://github.com/eldoy/pluss/issues"
   },
-  "homepage": "https://github.com/eldoy/superhtml#readme",
+  "homepage": "https://github.com/eldoy/pluss#readme",
   "devDependencies": {
     "spekky": "^0.1.3"
   }
