@@ -42,12 +42,6 @@ ${ hello }
 <div if="hello">
   {{ hello }}
 </div>
-<div elseif="something">
-  {{ hello }}
-</div>
-<div else>
-  {{ hello }}
-</div>
 ```
 
 Translates to:
@@ -56,11 +50,8 @@ Translates to:
 ${function(){
   if (hello) {
     return `<div>${esc(hello)}</div>`
-  } else if (something) {
-    return `<div>${esc(hello)}</div>`
-  } else {
-    return `<div>${esc(hello)}</div>`
   }
+  return ''
 }()}
 ```
 
