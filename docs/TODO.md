@@ -1,2 +1,6 @@
-This one has some code we can use, see replaceAll:
-https://www.npmjs.com/package/sprightly
+### Extras
+
+- elseif, else
+- faster parser (no regexp)
+  - line by line, search until end tag
+- support object loops, see NOTES.md
