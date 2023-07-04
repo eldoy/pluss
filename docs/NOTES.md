@@ -1,3 +1,44 @@
+### Syntax 1
+
+- Fast and easy to parse, does not use regexp
+- Generates perfect HTML templates on compile
+- Can be extracted to human readable template
+- Safe and secure
+- Simple, only if and map attributes addition
+- Can run HTML functions as components and elements?
+- Would be nice with strip left pad and format in development
+  - can be a separate lib, going out from waveorb
+- Map to component functions with tags and props
+- Typed props <hello n=4 state=true> (integer, bool)
+
+<.info>
+  <section.products>
+    <h2#products>
+      {{ products | t }}
+    <p>
+      <img src="/img/firmalisten-badge.svg" alt="Firmalisten logo">
+      <a href="https://firmalisten.no/">Firmalisten
+    <p>
+      <img src="/img/cfhq-badge.svg" alt="CrowdfundHQ logo">
+      <a href="https://crowdfundhq.com/">CrowdfundHQ
+
+<special-header-component>
+<svg-icon-cross-element height="50">
+
+<.list if="products">
+  <ul>
+    <li map="product of products">
+      <b>
+        {{ design | t }}
+      <b>
+        {{ rapid | t }}
+      <b>
+        {{ devops | t }}
+      <b>
+        {{ technical | t | date lang="no" num=5 }}
+
+
+
 ### Object map
 
 Object:
